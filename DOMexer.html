@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+</head>
+
+<style type="text/css">
+.header {
+	background-color: pink;
+}
+nav {
+	background-color: turquoise;
+}
+.footer {
+	background-color: skyblue;
+}
+.main{
+	width: 80%;
+	float: left;
+	padding-left: 40px;
+	box-sizing: border-box
+}
+.aside{
+	width: 20%;
+	float: right;
+}
+nav>ul>li{
+	display: inline-block;
+	padding: 10px
+}
+.brand{
+	font-size: 3em
+}
+</style>
+
+<body>
+<div class="header">
+	<div class="brand">My Website</div>
+	<nav>
+		<ul>
+			<li><a href=#>home</a></li>
+			<li><a href=#>about</a></li>
+			<li><a href=#>services</a></li>
+			<li><a href=#>FAQ</a></li>
+			<li><a href=#>contact</a></li>
+		</ul>
+	</nav>	
+</div>
+
+<div class="main">
+	<h1>Blog Title</h1>
+	<div class="figure">
+		<img src="images/shape.png" alt="strolling around the city" width="300px" height="200px">
+		<div class="figcaption">Strolling around the city</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>
+
+<div class="aside">
+	<h2>categories</h2>
+	<ul>
+		<li>food</li>
+		<li>travel</li>
+		<li>music</li>
+		<li>art</li>
+		<li>code</li>
+	</ul>
+	<h2>archives</h2>
+	<ul>
+		<li>january</li>
+		<li>february</li>
+		<li>march</li>
+		<li>april</li>
+		<li>may</li>
+	</ul>
+</div>
+
+<div style="clear:both"></div>
+<div class="footer">
+	<span>copyright My Website 2017</span>
+</div>
+
+</body>
+</html>

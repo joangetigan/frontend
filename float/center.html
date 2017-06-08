@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Center</title>
+	<style type="text/css">
+		.container {
+			border: 1px solid black;
+			height: 300px;
+			width: 700px;
+			margin: 200px auto;
+			position: relative;
+			text-align: center;
+		}
+		.box {
+			height: 200px;
+			width: 400px;
+			border: 1px solid black;
+			font-size: 40px;
+			position: absolute;
+			left: 50%;
+			/*transform: translateX(-50%);*/
+			top: 50%;
+			/*transform: translateY(-50%);*/
+			transform: translate(-50%,-50%);
+		}
+		.box span {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+		}
+	</style>
+	<!-- transform: translate(x,y); -->
+</head>
+
+<body>
+	<div class="container">
+		<div class="box"><span>center me</span></div>
+	</div>
+</body>
+</html>

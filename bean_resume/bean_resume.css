@@ -1,0 +1,24 @@
+body {
+    background: url(pattern.png) repeat;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 0;
+    letter-spacing: 1px;
+    background-attachment: fixed;
+}
+.margin {
+	margin: 0 300px;
+    padding: 50px;
+    background-color: black;
+    box-shadow: 0 0 50px black;
+}
+.intro {
+	text-align: center;
+    border: 1px dashed white;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+}
+h1, h2 {
+	color: skyblue;
+}

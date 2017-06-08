@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	div,p,h1 {
+		border: 1px solid black;
+		padding: 5px;
+	}
+	div {
+		border-width: 3px;
+	}
+	/*div + p + h1 {
+		background: yellow;
+	}*/
+	/*div ~ p {
+		background: yellow;
+	}*/
+	/*div + p ~ h1 {
+		background: yellow;
+	}*/
+	/*div > p {
+		background: yellow;
+	}*/
+	/*div p {
+		background: yellow;
+	}*/
+	/*span p {
+		background: yellow;*/
+	/*.target > span > p {
+		background: yellow;
+	}
+	ul > li {
+		display: inline-block;
+		background-color: red;
+		width: 100px;
+		margin: 5px;
+	}*/
+	input:focus {
+		font-size: 50px;
+	}
+	a:link {
+		color: red;
+	}
+	a:visited {
+		color: pink;
+	}
+	a:hover {
+		font-size: 30px;
+	}
+	a:focus {
+		color: yellow;
+	}
+	a:active {
+		color: green;
+	}
+	</style>
+</head>
+
+<!-- high specificity wins
+	Inline(1000) - ID(100) - class/pseudoclass(10) - tag(1) 
+	* zero point-->
+
+<body>
+	<!-- <div class="target">
+		<p>Paragraph 1 in the div</p>
+		<p>Paragraph 2 in the div</p>
+		<span><p>Paragraph 3 in the div</p></span>
+	</div>
+	<p>Paragraph 4. Not in the div</p>
+	<h1>Heading 1</h1>
+	<h1>Heading 2</h1>
+	<p>Paragraph 5. Not in the div</p>
+
+<hr><br>
+
+	<div>
+		<p>Paragraph 1 in the div</p>
+		<p>Paragraph 2 in the div</p>
+		<span><p>Paragraph 3 in the div</p></span>
+	</div>
+	<p>Paragraph 4. Not in the div</p>
+	<h1>Heading 1</h1>
+	<h1>Heading 2</h1>
+	<p>Paragraph 5. Not in the div</p>
+
+<hr><br>
+
+	<ul>
+		<li>Home</li>
+		<li>About</li>
+		<li>Contact</li>
+	</ul> -->
+
+	<!-- <a href="#">This is a link</a> -->
+	<a href="#">target link</a>
+	<!-- <input type="text" placeholder="First Name"></input> -->
+</body>
+</html>

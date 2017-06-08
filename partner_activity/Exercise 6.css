@@ -1,0 +1,225 @@
+/*DEFAULT STYLES*/
+* {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	color: white;
+}
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*SIDEBAR*/
+.sidebar {
+	float: left;
+	position: fixed;
+	background-color: #331E38;
+	width: 200px;
+	height: 100%;
+	text-align: center;
+}
+.sidebar > img {	
+	width: 130px;
+	margin: 50px 0 50px 0;
+}
+a {
+	font-style: normal;
+}
+nav > ul > li {
+	width: 130px;
+	line-height: 3em;
+	border-bottom: 1px solid white;
+}
+nav > ul > li > a:hover {
+	color: yellow;
+	font-size: 1.5em;
+	border-bottom: none;
+}
+nav > ul > li > a {
+	text-decoration: none;
+}
+
+/*BANNER*/
+.banner {	
+	height: 100vh;
+	margin-left: 200px;
+}
+
+/*HOME*/
+.home {
+	float: right;
+	background-image: url("home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+.homecaption {
+	width: 40%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 5px solid white;
+	padding: 40px;
+}
+.homecaption > h1 {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+/*ABOUT*/
+.about {
+	float: right;
+	background: linear-gradient(rgba(255, 0, 0, 0.45), 
+		rgba(255, 0, 0, 0.45)),
+		url("aboutme.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 50%;
+}
+.aboutcaption {
+	width: 500px;
+	padding: 40px;
+}
+.aboutcaption > h1 {
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 1em;
+}
+
+/*SERVICES*/
+.service {
+	float: right;
+	width: 100%;
+	min-height: 300px;
+	background-color: #423d2d;
+	padding: 30px;
+}
+.service > figure {
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+}
+.service > figure img {
+	height: 50px;
+	width: 50px;
+	margin-right: 5px;
+	float: left;
+}
+.service > figure figcaption {
+	color: salmon;
+	margin-top: 0;
+	font-size: 1.5em;
+}
+.right  {
+	float: right;
+	width: 80%;
+}
+.left {
+	width: 20%;
+	float: left;
+}
+.service > h1 {
+	color: #9C9681;
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+.service p {
+	margin-left: 10px;
+	font-size: 0.8em;
+	line-height: 1.2em;
+}
+
+/*PROJECTS*/
+.project {
+	float: right;
+	background-image: url("projects.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 300px;
+	padding: 30px;
+}
+.projectcaption {
+	width: 500px;
+}
+.projectcaption > h1 {
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+
+/*GALLERY*/
+.gallery {
+	width: 100%;
+	min-height: 400px;
+	background-color: #B5B4C7;
+	float: left;
+	overflow: hidden;
+}
+.gallery > figure {
+	width: 22%;
+	margin: 10px;
+	float: left;
+	min-width: 200px;
+	overflow: hidden;
+}
+.gallery > figure > img {
+	border-radius: 3px;
+	margin: 10px;
+}
+figcaption {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #585671;
+	margin: 10px;
+}
+.gallery > figure > p {
+	font-size: 0.8em;
+	line-height: 1.2em;
+	margin: 10px;
+}
+
+/*CONTACT*/
+.contact {
+	float: right;
+	background-image: url("contact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 30%;
+	text-align: right;
+	padding: 30px 50px;
+}
+.contact > h1 {
+	font-size: 4em;
+	margin-bottom: 10px;
+}
+
+/*FOOTER*/
+.footer {
+	float: right;
+	width: 100%;
+	height: 50px;
+	background-color: #C2095A;
+	padding: 20px;
+}
+.text {
+	font-size: 0.8em;
+	float: left;
+}
+.social-media > img {
+	width: 20px;
+	margin-right: 5px;
+	float: right;
+}
